@@ -19,4 +19,13 @@ have mapped right before. Give a name to the project and select C# as the projec
 
 Now we are ready to do some changes. Create a branch and change for example the readme file. 
 
-Then go to Changes (inside visual studio) enter a comment for the commit, then do Commit.
+Then go to Changes (inside visual studio) enter a comment for the commit, then do Commit. Now 
+if you go to Unsynced Commits and you click on Push, you will be able to see the changes already
+on github.com inside your branch, even though these changes will not yet be there for the master.
+
+Now we need to create a pull request.
+
+Go to github.com and inside the branch click on create pull request (green button). You will see 
+all commits you have pushed to the server. After pulling the request and having maybe a discussion 
+about the changes, the branch can be merged to the master. At this point the changes are visible
+online in the master as well.
